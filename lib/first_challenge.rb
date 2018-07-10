@@ -15,18 +15,18 @@ def first_challenge
 
   #your code here
   
-  contacts.each do |name|
-    if name == "Freddy Mercury"
-    name.each do |key, val|
-      if key == :favorite_icecream_flavors
+  # contacts.each do |name|
+  #   if name == "Freddy Mercury"
+  #   name.each do |key, val|
+  #     if key == :favorite_icecream_flavors
       
-          val.delete_if{|flavor| flavor == "strawberry"}
+  #         val.delete_if{|flavor| flavor == "strawberry"}
         
           
-        end
-      end
-    end
-  end
+  #       end
+  #     end
+  #   end
+  # end
   
   contacts.each do |name|
     if name == "Freddy Mercury"
